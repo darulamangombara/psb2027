@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+
+  <!-- Primary Meta Tags -->
+  <title>Pondok Pesantren Darul Aman Gombara - Portal Resmi &amp; PSB Online</title>
+  <meta name="title" content="Pondok Pesantren Darul Aman Gombara - Portal Resmi &amp; PSB Online">
+  <meta name="description"
+    content="Portal Resmi Pondok Pesantren Darul Aman Gombara Makassar di bawah naungan Yayasan Buq’atun Mubarakah. Informasi Penerimaan Santri Baru (PSB), SMP &amp; SMA Buq'atun Mubarakah, Tahfidz 30 Juz, Smart Class, dan Sistem Boarding School Kekeluargaan.">
+  <meta name="keywords"
+    content="pesantren darul aman gombara, darul aman makassar, psb darul aman, yayasan buqatun mubarakah, smp buqatun mubarakah, sma buqatun mubarakah, pendaftaran santri baru makassar, tahfidz 30 juz">
+  <meta name="author" content="Pondok Pesantren Darul Aman Gombara Makassar">
+  <meta name="robots" content="index, follow">
+
+  <!-- Theme & Mobile App Capability -->
+  <meta name="theme-color" content="#013880">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Darul Aman Gombara">
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://psb.darulaman.sch.id/">
+  <meta property="og:title" content="Pondok Pesantren Darul Aman Gombara - Portal Resmi &amp; PSB Online">
+  <meta property="og:description"
+    content="Pusat pendidikan terpadu nilai Islam dan sains modern di bawah naungan Yayasan Buq’atun Mubarakah Makassar. Pendaftaran Santri Baru (PSB) Gelombang I Telah Dibuka.">
+  <meta property="og:image" content="https://darulaman.sch.id/wp-content/uploads/2023/08/lib.jpg">
+  <meta property="og:site_name" content="Pesantren Darul Aman Gombara">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Pondok Pesantren Darul Aman Gombara - Portal Resmi &amp; PSB Online">
+  <meta property="twitter:description"
+    content="Pusat pendidikan terpadu nilai Islam dan sains modern di bawah naungan Yayasan Buq’atun Mubarakah Makassar. Pendaftaran Santri Baru (PSB) Telah Dibuka.">
+  <meta property="twitter:image" content="https://darulaman.sch.id/wp-content/uploads/2023/08/lib.jpg">
+
+  <!-- Favicon (Inline SVG Islamic Emblem - Darul Aman Royal Gold & Blue) -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23075fb7'/%3E%3Cstop offset='100%25' stop-color='%23013880'/%3E%3C/linearGradient%3E%3ClinearGradient id='gold' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23fde047'/%3E%3Cstop offset='100%25' stop-color='%23f59e0b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23bg)'/%3E%3Ccircle cx='32' cy='32' r='27' fill='none' stroke='url(%23gold)' stroke-width='1.5' stroke-dasharray='3 3'/%3E%3Cpath d='M32 18 C26 15 19 16 14 19 L14 43 C19 40 26 39 32 42 C38 39 45 40 50 43 L50 19 C45 16 38 15 32 18 Z' fill='none' stroke='url(%23gold)' stroke-width='3' stroke-linejoin='round'/%3E%3Cline x1='32' y1='20' x2='32' y2='42' stroke='url(%23gold)' stroke-width='2.5'/%3E%3Cpath d='M28 14 A5 5 0 1 0 35 11 A6 6 0 1 1 28 14' fill='url(%23gold)'/%3E%3C/svg%3E">
+
+  <style>
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      height: 100dvh;
+      overflow: hidden;
+      background-color: #013880;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Full-viewport Iframe Container */
+    #frame-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      height: 100dvh;
+      overflow: hidden;
+      z-index: 10;
+    }
+
+    #app-frame {
+      width: 100%;
+      height: 100%;
+      height: 100dvh;
+      border: none;
+      display: block;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+    /* Branded Preloader Overlay (Darul Aman Royal Blue & Gold Glow) */
+    #preloader {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      height: 100dvh;
+      background: radial-gradient(circle at 50% 30%, #075fb7 0%, #013880 60%, #011f4d 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 99999;
+      color: #ffffff;
+      padding: 24px;
+      text-align: center;
+      transition: opacity 0.65s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.65s ease;
+      visibility: visible;
+      opacity: 1;
+    }
+
+    #preloader.fade-out {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .loader-emblem {
+      width: 92px;
+      height: 92px;
+      margin-bottom: 20px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.45));
+      animation: gentle-pulse 2.8s ease-in-out infinite;
+    }
+
+    .loader-emblem svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .loader-title {
+      font-size: 1.3rem;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      color: #f8fafc;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+    }
+
+    .loader-subtitle {
+      font-size: 0.92rem;
+      color: #bae6fd;
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+
+    /* Elegant Islamic Gold Loading Bar */
+    .spinner-bar {
+      width: 190px;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 999px;
+      overflow: hidden;
+      position: relative;
+      margin-bottom: 14px;
+    }
+
+    .spinner-bar::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 40%;
+      background: linear-gradient(90deg, #fde047, #f59e0b, #38bdf8);
+      border-radius: 999px;
+      animation: bar-slide 1.5s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+    }
+
+    .loader-hint {
+      font-size: 0.8rem;
+      color: #94a3b8;
+      letter-spacing: 0.2px;
+    }
+
+    /* Fallback Bar if network is slow */
+    #fallback-bar {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 100000;
+      background: rgba(1, 31, 77, 0.95);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 10px 20px;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      color: #e2e8f0;
+      display: none;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    #fallback-bar a {
+      color: #fde047;
+      text-decoration: underline;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    @keyframes bar-slide {
+      0% {
+        left: -40%;
+        width: 30%;
+      }
+
+      50% {
+        width: 60%;
+      }
+
+      100% {
+        left: 100%;
+        width: 30%;
+      }
+    }
+
+    @keyframes gentle-pulse {
+
+      0%,
+      100% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.05);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Branded Preloader -->
+  <div id="preloader">
+    <div class="loader-emblem">
+      <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fef08a" />
+            <stop offset="50%" stop-color="#fde047" />
+            <stop offset="100%" stop-color="#f59e0b" />
+          </linearGradient>
+        </defs>
+        <circle cx="32" cy="32" r="28" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="4 4"
+          opacity="0.85" />
+        <path
+          d="M32 18 C26 14.5 18 16 13 19.5 L13 44.5 C18 41 26 40 32 43 C38 40 46 41 51 44.5 L51 19.5 C46 16 38 14.5 32 18 Z"
+          stroke="url(#goldGrad)" stroke-width="3" stroke-linejoin="round" />
+        <line x1="32" y1="19.5" x2="32" y2="43" stroke="url(#goldGrad)" stroke-width="2.5" />
+        <path d="M28 13 A5.5 5.5 0 1 0 36 10 A6.5 6.5 0 1 1 28 13" fill="url(#goldGrad)" />
+      </svg>
+    </div>
+    <div class="loader-title">Pesantren Darul Aman Gombara</div>
+    <div class="loader-subtitle">Yayasan Buq’atun Mubarakah • Makassar</div>
+    <div class="spinner-bar"></div>
+    <div class="loader-hint">Menghubungkan ke portal resmi PSB, mohon tunggu...</div>
+  </div>
+
+  <!-- Fallback Action Pill (appears if loading is taking prolonged time) -->
+  <div id="fallback-bar">
+    <span>Koneksi memerlukan waktu lebih lama?</span>
+    <a href="https://script.google.com/macros/s/AKfycbyIJ0-af1ADRAPsspRFfE-LbszJc4k2lJeU9Kg8zSpoFfHv8v1_1Gi_d9pIFLiurWs/exec"
+      target="_blank" rel="noopener noreferrer">Buka Portal Langsung &rarr;</a>
+  </div>
+
+  <!-- Fullscreen Iframe Embedding Google Apps Script Web App -->
+  <main id="frame-wrapper">
+    <iframe id="app-frame"
+      src="https://script.google.com/a/macros/darulaman.sch.id/s/AKfycbzpnH44uQo5nqkwFggmKWT1KDYoypf2kjWWSNbQtW-bdI_a0jKllPmWRf8IyB0_AV4/exec"
+      title="Portal Resmi Pondok Pesantren Darul Aman Gombara"
+      allow="accelerometer; autoplay; camera; clipboard-write; encrypted-media; fullscreen; geolocation; gyroscope; microphone; picture-in-picture; web-share"
+      allowfullscreen loading="eager"></iframe>
+  </main>
+
+  <script>
+    (function () {
+      const preloader = document.getElementById('preloader');
+      const appFrame = document.getElementById('app-frame');
+      const fallbackBar = document.getElementById('fallback-bar');
+      let isLoaded = false;
+
+      function dismissPreloader() {
+        if (isLoaded) return;
+        isLoaded = true;
+        if (preloader) {
+          preloader.classList.add('fade-out');
+          setTimeout(() => {
+            preloader.style.display = 'none';
+          }, 700);
+        }
+      }
+
+      // Event listener when iframe completes loading
+      if (appFrame) {
+        appFrame.addEventListener('load', dismissPreloader);
+      }
+
+      // Fallback: If network is slow or cold start takes longer than 6 seconds, hide preloader anyway
+      setTimeout(() => {
+        dismissPreloader();
+      }, 6000);
+
+      // Extra Fallback: Show friendly direct link bar if after 9 seconds still loading
+      setTimeout(() => {
+        if (fallbackBar && !isLoaded) {
+          fallbackBar.style.display = 'inline-flex';
+        }
+      }, 9000);
+    })();
+  </script>
+</body>
+
+</html>
